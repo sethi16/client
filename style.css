@@ -13,8 +13,30 @@ body {
             box-shadow: 0 0 10px rgb(199, 192, 192); /* Glow effect */
             font-size: 25px; /* Increase font size on click */
         }
-        
-    
+        .start{
+            background: linear-gradient(180deg, #808080, #8B4513);
+
+        }
+        .port:hover{
+            color: gray;
+        }
+        a:hover{
+            background-color: #8B4513;
+        }
+        /* Default Image Styling */
+.press-image {
+    width: 200px; /* Adjust size */
+    transition: all 0.5s ease-in-out;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Default shadow */
+    border-radius: 10px; /* Smooth edges */
+}
+
+/* When Image is Clicked */
+.press-image:hover {
+    transform: scale(0.95); /* Slightly shrinks to look pressed */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Reduces shadow for depth */
+}
+
     
   
   
