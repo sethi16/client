@@ -16,19 +16,28 @@
     <title>LAKSHITA</title>
 </head>
 <body>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("btn").addEventListener("click", function () {
+        document.getElementById("start").scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+    </script>
     <div class=" conainer vh-100 d-flex flex-column justify-content-center align-items-center  text-white">
         <h1 class="display-1 fw-bold mb-1 fade-on-scroll">LAKSHITA SETHI</h1>
         <h1 class="display-1 fw-bold">PORTFOLIO</h1>
         <h6 class=" display-6 fw-light m-5" > "Data analyst skilled in Excel, Python, SQL, and Power BI"</h6>
         <button class="btn btn-dark btn-md btn-outline-dark text-white rounded-circle " id="btn" type="button">
-            <i class="fas fa-arrow-down display-1"></i></button>
+           <i class="fas fa-arrow-down display-1 icon"></i></button>
     </div>
+    <div id="start"></div>
     <div class="container">
-        <div class="card ">
+        <div class="card overflow-hidden">
             <div class="start">
             <div class="article d-flex justify-content-between">
           <div class="fw-bold ps-3 pt-2" style="background: linear-gradient(180deg, #808080, #1a130f);">
-            <h5 class="port">Portfolio</h5> 
+          <a href="#" class="text-decoration-none" style="color:#060707"><h5 class="port">Portfolio</h5></a>  
          </div>
          <div class="p-2 ">
            <a href="https://www.linkedin.com/in/lakshita-sethi-1bb843344?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin  pt-0 p-3" style="color: #060707;"></i></a> 
@@ -52,43 +61,48 @@
                     <img src="sarthak_at_cocktail.jpg" alt="baby" style="width: 60%;" class="pt-5 press-image">
                     <p class="p-5 fw-light lh-lg">This Excel-based gem breaks down sales, revenue, and performance metrics to help spot trends, boost profits
                 , and keep the furniture business from falling flat—literally.</p>
+                <button class="mb-5 btn btn-dark btn-lg">View project</button>
                 </article>
                 <article class="col-md-6 project-card last-column" >
                     <h3 class="fw-bold">59th Store sales & perfomance analysis</h3>
                     <img src="sarthak_at_cocktail.jpg" alt="baby" style="width: 60%;" class="pt-5 press-image">
                     <p class="p-5 fw-light lh-lg">The "59th Store" Sales Dashboard: Style meets strategy! This Excel-powered tool reveals profit margin and inventory turnover. It spotlights T-shirts as top sellers and WhatsApp 
                         as our sales MVP. Armed with these insights, I'm optimizing "59th Store" for growth.</p>
+                        <button class="mb-5 btn btn-dark btn-lg">View project</button>
                 </article>
                 <article class="col-md-6 border border-light">
                     <h3 class="fw-bold">Netflix user behaviour and revenue insight</h3>
                     <img src="sarthak_at_cocktail.jpg" alt="baby" style="width: 60%;" class="pt-5 press-image">
                     <p class="p-5 fw-light lh-lg">I led a three-person team in analyzing Netflix user behaviour, subscription trends, and revenue insights. Utilizing SQL for data extraction and Power BI for visualization, 
                         we identified key trends such as high churn rates for Basic plans and the significant impact of content releases on user activity.</p>
-                </article>
+                         <button class="mb-5 btn btn-dark btn-lg">View project</button>
+                    </article>
                 <article class="col-md-6 border border-light">
                     <h3 class="fw-bold">Call center dashboard</h3>
                     <img src="sarthak_at_cocktail.jpg" alt="baby" style="width: 60%;" class="pt-5 press-image">
                     <p class="p-5 fw-light lh-lg">I designed to monitor and evaluate the performance of a call center,
                          providing actionable insights into key metrics such as call volume, agent performance, customer satisfaction, and operational efficiency. The dashboard equips managers and stakeholders with a clear view of daily operations, enabling data-driven decisions to enhance customer service quality and improve team performance.</p>
+                         <button class="mb-5 btn btn-dark btn-lg">View project</button>
                 </article>
                 <article class="col-md-6 border border-light">
                     <h3 class="fw-bold">Comprehesive Web traffic analysis</h3>
                     <img src="sarthak_at_cocktail.jpg" alt="baby" style="width: 60%;" class="pt-5 press-image">
                     <p class="p-5 fw-light lh-lg">Using Excel, the insights derived from this analysis aim to help stakeholders understand traffic behaviour and make informed decisions to optimize user engagement. 
                         The dashboard highlights key metrics such as total traffic count, average traffic count, peak hours, and daily trends. Interactive filters for months, days, and time allow for dynamic exploration of traffic patterns.</p>
-                </article>
+                        <button class="mb-5 btn btn-dark btn-lg">View project</button>
+                    </article>
                 <article class="col-md-6 border border-light">
                     <div class="m-5">
                     <h3 class="fw-bold">Address</h3>
-                    <h6>Jammu, India</h6>
+                    <h6 class="bord">Jammu, India</h6>
                 </div>
                     <div class="m-5">
                     <h3 class="fw-bold ">Phone</h3>
-                    <h6>(+91) 9419141424</h6>
+                    <a href="#"><h6 class="bord" style="color:black">(+91) 9419141424</h6></a>
                     </div>
                     <div class="m-5">
                     <h3 class="fw-bold ">Email</h3>
-                    <h6>lakshitasethi@gmail.com</h6>
+                    <a href="#"><h6 class="bord " style="color:black">lakshitasethi@gmail.com</h6></a>
                 </div>
                 <div class="m-5">
                     <h3 class="fw-bold ">Social</h3>

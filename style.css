@@ -37,6 +37,11 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Reduces shadow for depth */
 }
 
+.bord:hover {
+    color:rgb(206, 74, 14);
+    cursor: pointer;
+}
+
     
   
   
