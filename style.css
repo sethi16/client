@@ -41,8 +41,11 @@ body {
     color:rgb(206, 74, 14);
     cursor: pointer;
 }
+.shownavbar{
+    display: none;
+}
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:400px) {
     .start{
         display: none;
     }  
@@ -54,9 +57,6 @@ body {
         text-align: center; /* Center the text */
         padding: 20px; /* Adjust padding */
     }
-}
-.shownavbar{
-    display: none;
 }
 
   
