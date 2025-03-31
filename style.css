@@ -49,6 +49,11 @@ body {
     .shownavbar{
         display: block;
     }
+    .cont {
+        font-size: 12px; /* Reduce font size */
+        text-align: center; /* Center the text */
+        padding: 20px; /* Adjust padding */
+    }
 }
 .shownavbar{
     display: none;
