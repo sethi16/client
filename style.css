@@ -46,8 +46,12 @@ body {
     .start{
         display: none;
     }  
+    .shownavbar{
+        display: block;
+    }
+}
+.shownavbar{
+    display: none;
 }
 
-    
-  
   
